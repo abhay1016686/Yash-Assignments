@@ -1,3 +1,8 @@
+/**Create a program in which two string is input by the user. Vowel of first string should be replace 
+ * one by one second string consonant. If consonant of second string remaining all should be 
+ * concat to end of first string. If all vowel of first string are not replaced you have to replace them 
+ * by (underscore) _.
+*/
 package com.yash.exercises.string;
 
 import java.util.Scanner;

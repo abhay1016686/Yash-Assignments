@@ -1,3 +1,7 @@
+/**
+ * A string is enter by user say “The Golden Ball”. Another string is enter by the user. You have to 
+ * find the second string is are present in first string or not.
+*/
 package com.yash.exercises.string;
 
 import java.util.Scanner;

@@ -1,7 +1,10 @@
+/**
+ * WAP to find third minimum number from list of numbers.
+ * */
 package com.yash.exercises.array;
 
 public class ArrayProblemState1 {
-	
+			
 		   public static int getThirdSmallestNum(int[] a) {
 		      int temp;
 		      int count=0;

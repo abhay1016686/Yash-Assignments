@@ -1,3 +1,6 @@
+/**
+ * WAP to implement split function by you.
+*/
 package com.yash.exercises.string;
 
 import java.util.Scanner;

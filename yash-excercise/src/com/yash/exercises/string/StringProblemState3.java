@@ -1,3 +1,6 @@
+/**
+ * WAP to replace all small letter by capital and capital by small.
+*/
 package com.yash.exercises.string;
 
 import java.util.Scanner;
@@ -18,9 +21,9 @@ public class StringProblemState3 {
 			char ch= charArr[k];
 			int chInt =ch;
 			if(chInt >= 97 && chInt<(97+26)) {
-			for(int i = 'a',j=0; i<'z'; i++,j++) {
+			for(int i = 'a'; i<='z'; i++) {
 				if(ch == (char) i ) {
-					for(int l='A'; l<'Z';l++) {
+					for(int l='A'; l<='Z';l++) {
 						if(i==(l+32)) {
 							newCharArr[newCharArrayLengh]=(char) l;
 							newCharArrayLengh++;
@@ -32,9 +35,9 @@ public class StringProblemState3 {
 				
 			}
 			}else {
-			for(int i = 'A'; i<'Z'; i++) {
+			for(int i = 'A'; i<='Z'; i++) {
 				if(ch == (char) i ) {
-					for(int l='a'; l<'z';l++) {
+					for(int l='a'; l<='z';l++) {
 						if(i==(l-32)) {
 							newCharArr[newCharArrayLengh]=(char) l;
 							newCharArrayLengh++;

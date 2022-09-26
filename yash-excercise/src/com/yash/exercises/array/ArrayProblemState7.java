@@ -1,3 +1,6 @@
+/**
+ * WAP to find the LCM and HCF of array numbers.
+*/
 package com.yash.exercises.array;
 
 import java.util.Scanner;

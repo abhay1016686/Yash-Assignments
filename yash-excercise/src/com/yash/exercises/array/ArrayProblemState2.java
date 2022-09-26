@@ -1,3 +1,5 @@
+/** WAP to remove duplicate numbers from list of numbers.
+ */
 package com.yash.exercises.array;
 
 public class ArrayProblemState2 {

@@ -1,3 +1,7 @@
+/**
+ * WAP in which name of person is passed to main function and you have arrange all names by 
+ * their length.
+*/
 package com.yash.exercises.string;
 
 import java.util.Scanner;

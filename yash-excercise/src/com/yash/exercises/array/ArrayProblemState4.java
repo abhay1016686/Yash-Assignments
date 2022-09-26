@@ -1,3 +1,7 @@
+/**
+ * An Array contain the n numbers you have to find out combination which satisfy Pythagoras \
+ * Template. ( Pythagoras templates:- 3*3+4*4==5*5)
+*/
 package com.yash.exercises.array;
 
 import java.util.Scanner;

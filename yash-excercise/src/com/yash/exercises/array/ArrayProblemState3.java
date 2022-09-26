@@ -1,3 +1,6 @@
+/**
+ * AP to create a dynamic array. Dynamic Array means when user want to input the number
+*/
 package com.yash.exercises.array;
 
 public class ArrayProblemState3 {

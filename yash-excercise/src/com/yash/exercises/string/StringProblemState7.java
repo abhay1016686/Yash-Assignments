@@ -1,3 +1,6 @@
+/**
+ * WAP to implement stack of String. A stack in which you can push and pop element from only one side.
+*/
 package com.yash.exercises.string;
 
 import java.util.Scanner;

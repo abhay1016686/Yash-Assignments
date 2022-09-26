@@ -1,3 +1,7 @@
+/**
+ * WAP to print the sum of digit of each alphabets. Digit equal to a-A 1, b-B 2 and so on. If user has 
+ * enter ABc sum will be 6.
+*/
 package com.yash.exercises.string;
 
 public class StringProblemState4 {
