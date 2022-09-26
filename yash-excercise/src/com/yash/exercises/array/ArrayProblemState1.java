@@ -21,10 +21,23 @@ public class ArrayProblemState1 {
 		         }
 		      }
 		     
-		      return a[2];
+		      return removeDuplicateElements(a,count);
 		   }
-		   public static void main(String args[]) {
-		      int arr[] = { 15,10,4, 15, 9, 13, 2 };
+		   public static int removeDuplicateElements(int arr[], int n) {
+				if (n == 0 || n == 1) {
+					return n;
+				}
+				int j = 0;
+				for (int i = 0; i < n - 1; i++) {
+					if (arr[i] != arr[i + 1]) {
+						arr[j++] = arr[i];
+					}
+				}
+				arr[j++] = arr[n - 1];
+				return arr[2];
+			}
+		public static void main(String args[]) {
+		      int arr[] = { 15,10,8, 8, 7, 6, 7 };
 		      int num = getThirdSmallestNum(arr);
 		      System.out.println("Third Smallest: " +num);
 		   }
