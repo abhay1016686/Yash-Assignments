@@ -3,6 +3,8 @@ package com.yash.practice;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.yash.practice.model.Car;
+
 public class CalculateCarSold {
 
 	public static void main(String[] args) {
