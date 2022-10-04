@@ -37,7 +37,7 @@ public class ArrayProblemState1 {
 				return arr[2];
 			}
 		public static void main(String args[]) {
-		      int arr[] = { 15,10,8, 8, 7, 6, 7 };
+		      int arr[] = {13,13,12,11,12,7,7,8,8,9,9};
 		      int num = getThirdSmallestNum(arr);
 		      System.out.println("Third Smallest: " +num);
 		   }

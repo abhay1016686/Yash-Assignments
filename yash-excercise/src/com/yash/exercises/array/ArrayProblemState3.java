@@ -1,5 +1,5 @@
 /**
- * AP to create a dynamic array. Dynamic Array means when user want to input the number
+ * WAP to create a dynamic array. Dynamic Array means when user want to input the number
 */
 package com.yash.exercises.array;
 
